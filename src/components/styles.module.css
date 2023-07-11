@@ -1,0 +1,33 @@
+.weatherWidget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    color: #282c34;
+}
+
+.weatherInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.weatherInfo img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.weatherInfo p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.weatherInfo p + p {
+    margin-left: 1rem;
+}
